@@ -1,3 +1,6 @@
+#TODO: write working of each method
+
+
 class Clothing:
 
     def __init__(self, color, size, style, price):
@@ -18,7 +21,10 @@ class Clothing:
 class Shirt(Clothing):
     
     def __init__(self, color, size, style, price, long_or_short):
-        
+        '''
+        this initializes shirt class with attributes color, style, price, long_or_short'
+        attributes
+        '''
         Clothing.__init__(self, color, size, style, price)
         self.long_or_short = long_or_short
     
@@ -35,16 +41,6 @@ class Pants(Clothing):
     def calculate_discount(self, discount):
         return self.price * (1 - discount / 2)
     
-# TODO: Write a class called Blouse, that inherits from the Clothing class
-# and has the the following attributes and methods:
-#   attributes: color, size, style, price, country_of_origin
-#     where country_of_origin is a string that holds the name of a
-#     country
-#
-#   methods: triple_price, which has no inputs and returns three times
-#     the price of the blouse
-#
-#
 class Blouse(Clothing):
     def __init__(self, color, size, style, price, country_of_origin):
         Clothing.__init__(self, color, size, style, price)
@@ -52,10 +48,7 @@ class Blouse(Clothing):
 
     def triple_price(self):
         return 3 * self.price
-# TODO: Add a method to the clothing class called calculate_shipping.
-#   The method has two inputs: weight and rate. Weight is a float
-#   representing the weight of the article of clothing. Rate is a float
-#   representing the shipping weight. The method returns weight * rate
+
 
 
 
