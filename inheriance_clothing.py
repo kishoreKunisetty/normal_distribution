@@ -47,11 +47,11 @@ class Pants(Clothing):
 #
 class Blouse(Clothing):
     def __init__(self, color, size, style, price, country_of_origin):
-        Clothing.__init__(color, size, style, price)
+        Clothing.__init__(self, color, size, style, price)
         self.country_of_origin = country_of_origin
-        
+
     def triple_price(self):
-        return 3*self.price
+        return 3 * self.price
 # TODO: Add a method to the clothing class called calculate_shipping.
 #   The method has two inputs: weight and rate. Weight is a float
 #   representing the weight of the article of clothing. Rate is a float
