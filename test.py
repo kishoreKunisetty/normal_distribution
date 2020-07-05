@@ -1,6 +1,7 @@
 import unittest
 
-from Gaussiandistribution import Gaussian
+#from Gaussiandistribution
+from gaussian import Gaussian
 
 
 class TestGaussianClass(unittest.TestCase):
