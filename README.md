@@ -38,7 +38,7 @@ Distribution
 ```
 Distribution is super class of Gaussian and Binomial and called in both of them for its functionality of reading data from files.
 
-**both class have thier magic methods(add, repr) modidied hence any number of Gaussian instances can be added or Binomial instances can be added but not Binomial with Gaussian.**
+**both class have thier magic methods(add, repr) modified hence any number of Gaussian instances can be added or Binomial instances can be added but not Binomial with Gaussian.**
 
 ## how to use?
 ### Gaussian Distribution
@@ -133,6 +133,7 @@ Binomial.plot_bar_pdf()
 >output
 
 ![image4](images/Figure_4.png)
-## reference 
-refer [github](https://github.com/kishoreKunisetty/normal_distribution) for mathematics behind this library 
+
+## uninstall??
+`pip uninstall normal_distribution`
 
