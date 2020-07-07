@@ -40,6 +40,20 @@ gaussian.plot_histogram()
 
 ![figure1](images/Figure_1.png)
 
+calculating probability distribution function(pdf)
+```python
+gaussian.pdf()
+>>> {some float}
+```
+
+plotting pdf
+```python
+n_space = 5
+gaussian.plot_histogram_pdf(n_space)
+```
+>output
+![figure2](images/Figure_2.png)
+
 
 ## reference 
 refer [github](https://github.com/kishoreKunisetty/normal_distribution) for mathematics behind this library 
