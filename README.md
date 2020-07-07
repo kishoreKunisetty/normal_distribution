@@ -13,7 +13,35 @@ this package can read a text file containing the data and perform distribution f
 
 ## installation
 `pip install normal-distribution` or you can also clone [github repo](https://github.com/kishoreKunisetty/normal_distribution) and run `pip install .` in the terminal when the terminal is inside normal_distribution folder.
+## understanding
+this is a tree disgram of functions used given for better understanding of this package.
+```
+Distribution
+|-init()
+|-read_data_file()
+|-Gaussian
+|   |-init()
+|   |-calculate_mean()
+|   |-calculate_stdev()
+|   |-plot_histogram()
+|   |-pdf()
+|   |-plot_histogram_pdf()
+|
+|-Binomial
+    |-init()
+    |-calculate_mean()
+    |-calculate_stdev()
+    |-replace_stats_with_data()
+    |-plot_bar()
+    |-pdf()
+    |-plot_bar_pdf()
+```
+Distribution is super class of Gaussian and Binomial and called in both of them for its functionality of reading data from files.
+
+**both class have thier magic methods(add, repr) modidied hence any number of Gaussian instances can be added or Binomial instances can be added but not Binomial with Gaussian.**
+
 ## how to use?
+### Gaussian Distribution
 importing and creating a gaussian 
 ```python
 import normal_distribution as nd
@@ -53,6 +81,36 @@ gaussian.plot_histogram_pdf(n_space)
 ```
 >output
 ![figure2](images/Figure_2.png)
+
+### binomial Distribution
+importing and creating Binomial
+```python
+import normal_distribution as nd
+Binomial = nd.Binomial(0.5, 20) #prob = 0.5 and size = 20
+Binomial
+>>>mean 10.0, standard deviation 2.23606797749979, p 0.5, n 20
+```
+reading text file
+```python
+file = "file_location/file_name.txt"
+Binomial.read_data_file(file)
+```
+calculating mean
+```python
+Binomial.calculate_mean()
+>>> 10.0
+```
+calculating standard deviation
+```python
+Binomial.calculate_stdev()
+>>>1.7541160386140584
+```
+replacing or initilizing data taken from file
+```python
+Binomial.replace_stats_with_data()
+Binomial
+>>>mean 8.0, standard deviation 1.7541160386140584, p 0.6153846153846154, n 13
+```
 
 
 ## reference 

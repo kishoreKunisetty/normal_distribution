@@ -97,7 +97,7 @@ class Binomial(Distribution):
         plt.title('Bar Chart of Data')
         plt.xlabel('outcome')
         plt.ylabel('count')
-        
+        plt.show()
         
         
     def pdf(self, k):
