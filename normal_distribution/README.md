@@ -38,7 +38,7 @@ gaussian.plot_histogram()
 ```
 >output
 
-![figure1](Desktop/Figure_1.png)
+![figure1](images/Figure_1.png)
 
 
 ## reference 
