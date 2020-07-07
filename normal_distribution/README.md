@@ -31,5 +31,16 @@ calculating mean and standard deviation for the data.
 gaussian.calculate_mean()
 gaussian.calculate_stdev()
 ```
+
+plotting a histogram of the data
+```
+gaussian.plot_histogram()
+```
+>output
+
+![figure1](Desktop/Figure_1.png)
+
+
 ## reference 
 refer [github](https://github.com/kishoreKunisetty/normal_distribution) for mathematics behind this library 
+
