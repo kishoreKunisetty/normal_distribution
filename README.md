@@ -1,6 +1,7 @@
 # Normal Distribution
 ![GitHub repo size](https://img.shields.io/github/repo-size/kishoreKunisetty/normal_distribution)
 ![GitHub issues](https://img.shields.io/github/issues/kishoreKunisetty/normal_distribution)
+[![License: MIT](https://img.shields.io/github/license/kishoreKunisetty/normal_distribution)](https://opensource.org/licenses/MIT)
 ## about
 this package is for solving gaussian distribution and finds attributes of data like mean, standard diviation and probability density
 ## why?
