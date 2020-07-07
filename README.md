@@ -12,7 +12,7 @@ it requires matplotlib to be preinstall as this package is able to plot the prob
 this package can read a text file containing the data and perform distribution functions and plot the distribution graph.
 
 ## installation
-`pip install normal-distribution` or you can also clone [github repo](https://github.com/kishoreKunisetty/normal_distribution) and run `pip install .` in the terminal when the terminal is inside normal_distribution folder.
+`pip install normal-distribution` or you can also clone [github repo](https://github.com/kishoreKunisetty/normal_distribution) and run `pip install .` in the terminal when terminal is pointing normal_distribution folder.
 ## understanding
 this is a tree disgram of functions used given for better understanding of this package.
 ```
