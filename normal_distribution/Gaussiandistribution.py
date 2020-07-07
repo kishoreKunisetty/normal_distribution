@@ -84,6 +84,7 @@ class Gaussian(Distribution):
         plt.title('Histogram of Data')
         plt.xlabel('data')
         plt.ylabel('count')
+        plt.show()
         
         
         
