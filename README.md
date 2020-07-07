@@ -111,8 +111,28 @@ Binomial.replace_stats_with_data()
 Binomial
 >>>mean 8.0, standard deviation 1.7541160386140584, p 0.6153846153846154, n 13
 ```
+plotting bar graph
+```python
+Binomial.plot_bar()
+```
+>output
 
+![image3](images/Figure_3.png)
 
+calculating probability density function
+```python
+#k = point for calculating the probability density function
+k = 5
+Binomial.pdf(k)
+>>>0.054390736120078866
+```
+plotting bar graph for pdf
+```python
+Binomial.plot_bar_pdf()
+```
+>output
+
+![image4](images/Figure_4.png)
 ## reference 
 refer [github](https://github.com/kishoreKunisetty/normal_distribution) for mathematics behind this library 
 
