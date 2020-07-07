@@ -1,4 +1,6 @@
 # Normal Distribution
+![GitHub repo size](https://img.shields.io/github/repo-size/kishoreKunisetty/normal_distribution)
+![GitHub issues](https://img.shields.io/github/issues/kishoreKunisetty/normal_distribution)
 ## about
 this package is for solving gaussian distribution and finds attributes of data like mean, standard diviation and probability density
 ## why?
